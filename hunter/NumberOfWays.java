@@ -19,25 +19,12 @@ class GFG {
 		            if(Integer.valueOf("" + in[i] + in[i+1]) <= 26 
 		            && Integer.valueOf("" + in[j] + in[j+1]) <= 26
 		            && Integer.valueOf("" + in[i] + in[i+1]) >= 10
-		            && Integer.valueOf("" + in[i] + in[i+1]) >= 10){
+		            && Integer.valueOf("" + in[j] + in[j+1]) >= 10){
 		                count++;
-		                if(j < in.length - 2){
-		                    j += 2;
-		                }
-		                else{
-		                    break;
-		                }
 		            }
-		            else{
-		                j++;
-		            }
+		            j++;
 		        }
-		        if(i < in.length - 2){
-		            i += 2;
-		        }
-		        else{
-		            i++;
-		        }
+		        i++;
 		    }
 		}
 		System.out.println(count);
