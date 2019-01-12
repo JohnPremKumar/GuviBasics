@@ -5,9 +5,9 @@ import java.util.*;
 
 class Smallest {
 	public static void main (String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String input = sc.next();
-		int sub = sc.nextInt();
+		Scanner s = new Scanner(System.in);
+		String input = s.next();
+		int sub = s.nextInt();
 		long min = Long.MAX_VALUE;
 		char[] in = input.toCharArray();
 		int seperator = in.length - sub;
