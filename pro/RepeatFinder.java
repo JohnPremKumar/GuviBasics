@@ -8,11 +8,11 @@ import java.util.ArrayList;
 
 class RepeatFinder {
 	public static void main (String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int size = sc.nextInt();
+		Scanner s = new Scanner(System.in);
+		int size = s.nextInt();
 		int[] arr = new int[size];
 		for(int i = 0 ; i < size; i++){
-		    arr[i] = sc.nextInt();
+		    arr[i] = s.nextInt();
 		}
 		List<Integer> values = new ArrayList<Integer>();
 		for(int i = 0; i < size - 1; i++){
