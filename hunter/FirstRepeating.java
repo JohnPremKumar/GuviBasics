@@ -9,7 +9,7 @@ class FirstRepeating {
 		int n = s.nextInt();
 		int[] in = new int[n];
 		for(int i = 0; i < n; i++){
-		    in[i] = sc.nextInt();
+		    in[i] = s.nextInt();
 		}
 		boolean check = true;
   outer:for(int i = 0; i < n; i++){
