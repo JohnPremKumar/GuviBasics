@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 class GFG {
 	public static void main (String[] args) {
-		Scanner sc = new Scanner(System.in);
-		char[] in = String.valueOf(sc.nextInt()).toCharArray();
+		Scanner s = new Scanner(System.in);
+		char[] in = String.valueOf(s.nextInt()).toCharArray();
 		int count = 1;
 		for(int i = 0; i < in.length - 1; i++){
 		    if(Integer.valueOf("" + in[i]+in[i+1]) <= 26 && Integer.valueOf("" + in[i] + in[i+1]) >= 10){
