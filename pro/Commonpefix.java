@@ -16,7 +16,7 @@ class Commonpefix
 		int minSize = 100000;
 		int minIndex = 0;
 		for(int i = 0; i < n; i++){
-			arr[i] = s.next()
+			arr[i] = s.next();
 			if(arr[i].length() < minSize){
 				minSize = arr[i].length();
 				minIndex = i;
