@@ -11,7 +11,7 @@ class Commonpefix
 	{
 		// your code goes here
 		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
+		int n = s.nextInt()
 		String[] arr = new String[n];
 		int minSize = 100000;
 		int minIndex = 0;
