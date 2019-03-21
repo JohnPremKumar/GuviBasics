@@ -17,7 +17,7 @@ class Maxvalue {
 		        if(in[i] < in[j]){
 		            temp = in[i];
 		            in[i] = in[j];
-		            in[j] = temp;
+		            in[j] = temp
 		        }
 		    }
 		}
