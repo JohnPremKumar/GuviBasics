@@ -13,8 +13,8 @@ class Commonpefix
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		String[] arr = new String[n];
-		int minSize = 100000
-		int minIndex = 0;
+		int minSize = 100000;
+		int minIndex = 0
 		for(int i = 0; i < n; i++){
 			arr[i] = s.next();
 			if(arr[i].length() < minSize){
