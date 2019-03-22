@@ -14,7 +14,7 @@ string repeat(string s, int n)
   
 int main() 
 { 
-    string s="hello\n";
+    string s="Hello\n";
     
     int n,m ;
     cin>>n;
