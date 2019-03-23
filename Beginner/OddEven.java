@@ -12,7 +12,7 @@ class OddEven {
       System.out.println("Even");
     }
     else{
-      System.out.println("Odd");
+      System.out.print("Odd");
     }
   }
 }
