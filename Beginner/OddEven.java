@@ -6,7 +6,7 @@ class OddEven {
     Scanner sc = new Scanner(System.in);
     int input = sc.nextInt();
     if(input <= 0){
-      System.out.println("Invalid");
+      System.out.println("Invaid");
     }
     else if(input%2 == 0){
       System.out.println("Even");
