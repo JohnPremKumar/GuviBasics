@@ -9,5 +9,5 @@ int main()
       printf("Even");
   else
       printf("Odd");
-  return 0;   
+  return 5;   
 }
