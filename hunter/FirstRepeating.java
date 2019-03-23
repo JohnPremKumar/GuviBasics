@@ -26,7 +26,7 @@ class FirstRepeating {
 		    }
 		}
 		if(check){
-		    System.out.println("unique");
+		    System.out.println("uniqe");
 		}
 	}
 }
