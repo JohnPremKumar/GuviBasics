@@ -21,12 +21,12 @@ class FirstRepeating {
 		        }
 		    }
 		    if(!check){
-		        System.out.println(in[i]);
+		        System.out.print(in[i]);
 		        break outer;
 		    }
 		}
 		if(check){
-		    System.out.println("uniqe");
+		    System.out.print("uniqe");
 		}
 	}
 }
