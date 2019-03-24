@@ -10,7 +10,6 @@ class Commonpefix
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		//
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		String[] arr = new String[n];
