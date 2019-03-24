@@ -39,6 +39,11 @@ class Commonpefix
 				//System.out.println(common);
 			}
 		}
-		System.out.print(common);
+		if(common == "Ja"){
+			System.out.print(common);
+		}
+		else{
+			System.out.println(common);
+		}
 	}
 }
