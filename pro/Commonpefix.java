@@ -38,6 +38,6 @@ class Commonpefix
 				//System.out.println(common);
 			}
 		}
-			System.out.println(common);
+			System.out.print(common);
 	}
 }
