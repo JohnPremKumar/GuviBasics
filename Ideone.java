@@ -12,7 +12,7 @@ class Ideone
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
 		if(input > 0){
-			System.out.println("Positive");
+			System.out.println("ositive");
 		}
 		else if(input < 0){
 			System.out.println("Negative");
