@@ -7,7 +7,7 @@ for i in range(N):
         a.append(x)
 a.sort()
 for y in range(len(a)):
-    if y!=len(a):
+    if y!=len(a-1):
         print(a[y],end=' ')
     else:
         print(a[y],end='')
