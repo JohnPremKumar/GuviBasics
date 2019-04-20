@@ -9,5 +9,7 @@ for i,v in enumerate(l):
                 op.append(temp)
 for i in range(len(op)):
     for j in range(3):
-        print(op[i][j]),
-    print("")
+        if(j == 2):
+            print(op[i][j])
+        else:
+            print(op[i][j]),
