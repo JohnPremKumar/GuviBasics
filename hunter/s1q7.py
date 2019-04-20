@@ -7,4 +7,4 @@ for i,v in enumerate(l):
     elif(v%2!=0 and(i==0 or i%2 == 0)):
         new.append(v)
 for i in new:
-    print(i),
+    print i,
