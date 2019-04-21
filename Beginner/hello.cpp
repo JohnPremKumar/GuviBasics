@@ -18,6 +18,6 @@ int main()
     
     int n,m ;
     cin>>n;
-    cout << repeat(s, n) << endl;; 
+    cout << repeat(s, n) << endl;
     return 0; 
 } 
