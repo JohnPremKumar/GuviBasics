@@ -4,7 +4,7 @@ public class Hello{
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int in = sc.nextInt();
-    for(int i = 0; i < in; i++){
+    while(1){
       System.out.println("Hello");
     }
   }
