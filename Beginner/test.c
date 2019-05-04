@@ -1,13 +1,11 @@
-#include<stdio.h>
-int main()
-{
-  int a;
-  scanf("%d",&a);
-  if(a<0)
-      printf("invalid");
-  else if(a%2==0)
-      printf("Even");
-  else
-      printf("Odd");
-  return 5;   
+int main() {
+    int hh, mm, ss ;
+    char t12[3];
+    scanf("%d:%d:%d%s", &hh, &mm, &ss, t12) ;
+        
+    if (strcmp(t12,"PM")==0 && hh!=12) hh += 12 ;
+    if (strcmp(t12,"AM")==0 && hh==12) hh = 0 ;
+        
+    printf("%02d:%02d:%02d", hh, mm, ss) ;
+    return 0;
 }
