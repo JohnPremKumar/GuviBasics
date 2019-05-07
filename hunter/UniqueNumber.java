@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-class UniqueNumber {
+public class UniqueNumber {
 	public static void main (String[] args) {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
