@@ -8,5 +8,5 @@ int main(){
 	printf("Positive");
 	else
 	printf("Negative");
-	return 1;
+	return 0;
 }
