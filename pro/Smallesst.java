@@ -8,7 +8,7 @@ class Smallest {
 		Scanner s = new Scanner(System.in);
 		String input = s.next();
 		int sub = s.nextInt();
-		long min = Long.MAX_VALUE;
+		long min = Long.MAX_VALUE;//
 		char[] in = input.toCharArray();
 		int seperator = in.length - sub;
 		if(sub > 0){
