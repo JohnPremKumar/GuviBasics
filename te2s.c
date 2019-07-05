@@ -39,7 +39,7 @@ for(j = 0; j < C; j++)
 {
 if(max < S[i][j])
 {
-max = S[i][j];
+max = S[i][j];//
 maxi = i;
 maxj = j;
 }
