@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int min(int a, int b, int c)
 {
-int m = a;
+int m = a;//
 if (m > b)
 m = b;
 if (m > c)
