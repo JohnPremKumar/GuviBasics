@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
 
-class RepeatFinder {
+public class RepeatFinder {
 	public static void main (String[] args) {
 		Scanner s = new Scanner(System.in);
 		int size = s.nextInt();
