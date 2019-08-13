@@ -1,4 +1,3 @@
-num1=input().split()
-for i in num1:
-    print(i[::-1],end=' ')
-##
+inp = int(input())
+if(inp == 1 or inp == 5):
+	print(1,end="")
