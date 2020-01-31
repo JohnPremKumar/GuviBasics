@@ -1,6 +1,5 @@
-inp = input()
-intt = int(inp.split(" ")[0])
-if(intt == 7):
-  print(2,end="")
-elif(intt == 10):
-  print(9,end="")
+inp = int(input())
+op = [] 
+for i in range(1,4):
+  op.append(i * inp)
+print(" ".join(map(str, op)))
